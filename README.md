@@ -18,9 +18,9 @@ The result? Stable, robust, and mathematically sound optimization that heavily p
 
 ### 🛠️ Quick Start
 
-First, ensure you have the required dependencies installed:
+First, install the project locally so the modules can be imported:
 ```bash
-pip install numpy torch scipy scikit-learn xgboost
+pip install -e .
 ```
 
 We provide plug-and-play estimators for three major paradigms (SciPy, PyTorch, and XGBoost). 

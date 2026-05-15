@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tailored_psr"
+version = "0.1.0"
+authors = [
+    {name = "Roman Plaud"},
+    {name = "Alexandre Perez-Lebel"},
+    {name = "Antoine Saillenfest"},
+    {name = "Thomas Bonald"},
+    {name = "Marine Le Morvan"},
+    {name = "Gaël Varoquaux"},
+    {name = "Matthieu Labeau"}
+]
+description = "Minimalistic implementation of tailored proper scoring rules for causal inference (Accepted at ICML 2026)."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "torch",
+    "xgboost"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/anonymous/tailored_psr"

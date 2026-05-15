@@ -19,7 +19,7 @@ The result? Stable, robust, and mathematically sound optimization that heavily p
 ### 🛠️ Quick Start
 
 First, ensure you have the required dependencies installed:
-```bash
+```python
 pip install numpy torch scipy scikit-learn xgboost
 
 We provide plug-and-play estimators for three major paradigms (SciPy, PyTorch, and XGBoost). 
